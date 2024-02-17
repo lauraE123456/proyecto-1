@@ -5,13 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lapices</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Tienda de lapices: </h2>
-    <form action="back.php" method="get">
-       <label for="">Ingrese la cantidad de lapices que desea comprar:</label>
-       <input type="number" name="numerolapices">
-       <br> <input type="submit" value="=">
-    </form>
+    <div style="background-color: rgb(165, 87, 165); width: 500px; margin-top: 20%; margin-left: 40%;"><center>
+        <h2>Tienda de lapices: </h2>
+        <br>
+        <form action="back.php" method="get">
+           <label for="" class="form-label">Ingrese la cantidad de lapices que desea comprar:</label>
+           <input type="number" name="CantidadLapices" >
+           <div class="mb-3">
+        
+          </div>
+           <br> 
+           <button type="submit" value="enviar" class="btn btn-primary">Enviar</button>
+    
+        </form>
+      </center></div>
 </body>
 </html>
